@@ -43,6 +43,7 @@ dependencies {
     compile "com.android.support:appcompat-v7:${supportLibVersion}"
     compile "com.android.support:support-annotations:${supportLibVersion}"
     compile "com.android.support:recyclerview-v7:${supportLibVersion}"
+    compile "com.android.support:support-core-utils:${supportLibVersion}"
 
     //Facebook SDK
     compile 'com.facebook.fresco:fresco:1.7.0'
@@ -52,9 +53,6 @@ dependencies {
     compile 'com.facebook.fresco:fbcore:1.7.0'
     compile 'com.facebook.fresco:imagepipeline:1.7.0'
     compile 'com.facebook.fresco:imagepipeline-base:1.7.0'
-
-    // Provide the Android support library (you might already have this or a similar dependency)
-    compile 'com.android.support:support-core-utils:26.1.0'
 }
 
 // jcenter configuration for novoda's bintray-release
