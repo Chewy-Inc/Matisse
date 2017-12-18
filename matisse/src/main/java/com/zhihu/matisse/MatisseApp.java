@@ -13,7 +13,7 @@ import com.zhihu.matisse.engine.impl.FrescoSupplier;
  * Created by bhijuelos on 10/11/17.
  */
 
-public class MatisseApp extends Application{
+public class MatisseApp extends Application {
 
     @Override
     public void onCreate() {
