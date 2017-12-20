@@ -46,13 +46,7 @@ dependencies {
     compile "com.android.support:support-core-utils:${supportLibVersion}"
 
     //Facebook SDK
-    compile 'com.facebook.fresco:fresco:1.7.0'
-
-    //Added manually until the repo get fixed.
-    compile 'com.facebook.fresco:drawee:1.7.0'
-    compile 'com.facebook.fresco:fbcore:1.7.0'
-    compile 'com.facebook.fresco:imagepipeline:1.7.0'
-    compile 'com.facebook.fresco:imagepipeline-base:1.7.0'
+    compile 'com.facebook.fresco:fresco:1.7.1'
 }
 
 // jcenter configuration for novoda's bintray-release
